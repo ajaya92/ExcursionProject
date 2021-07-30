@@ -1,0 +1,76 @@
+body{
+    background-color: black !important;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,p,h4{
+    text-align: center;
+
+}
+
+#mainHeader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+#personalHeader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+
+#excursionLink{
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+#excursionPara{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+#excursionCR{
+    text-align: right;
+}
+
+@media screen  and (max-width:750px) {
+    video{
+        width: 300px;
+    }
+    
+    #camp{
+        width: 325px;
+        height: 250px;
+    }
+    #personalHeader{
+        font-size: 32px;
+    }
+
+    #excursionLink{
+        font-size: 12px;
+    }
+
+    #excursionPara{
+        font-size: 15px;
+    }
+
+    #cellIcon{
+        width: 15%;
+    }
+}
+
